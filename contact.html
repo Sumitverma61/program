@@ -1,0 +1,73 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-csale=2.0">
+        <tittle>document</tittle>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            button {
+                color: aqua;
+                border-left-color: rgb(153, 255, 127);
+                border-radius: 5px;
+                border:0ch;
+                background-color: rgb(42, 165, 114);
+                min-width: auto;
+                min-height: auto;
+                position:relative;
+            }
+                textarea#mesg{
+                    min-height: auto;
+                }
+                    input,textarea {
+                        padding: 9px;
+                        box-shadow: 0.4* 0.4 hsl(0deg 0% 63% /63);
+                        border: 1px solid hsl(0deg 0% 63% /63);
+                        min-height: auto;
+                    }
+                        form {  gap: 1rem;
+                            display: grid;
+                        
+
+                        }
+                    
+                            input :focus, textarea:focus{
+                                outline:none;
+                                border:2px solid rgb(red, green, blue);
+                            }
+                 .main { width:auto 300px;
+                padding:  1rem 2rem 1rem 3rem;
+               border-radius: 3px; 
+            text-align: center;
+        background-color: aliceblue;    } 
+        form { display: grid;
+        }
+          body {
+            display:flex;
+            height: auto;
+            padding: 10rem 1rem 11rem 0rem; 
+            justify-content: center;
+          }          
+            html {
+                background-color: brown;
+                background:linear-radient (130deg, rgba(75,100,200) 0%, rgba(70, 155,170,2) 90%)
+            } 
+              
+                        
+        </style>
+        </head>
+        <body>
+            <div></div><div></div><div></div><div></div>
+            <div class="main">
+                <h1></h1>
+                <form>
+                    
+        <input name="username" type="text" placeholder="Namme">
+        <input name="email" type="email" placehholder="Email">
+        <textarea name="messae" id="msg"  cols="40" rows="15" placeholder="message"></textarea>
+        <button>send</button>
+        </form>
+        </div>
+    </body>
+</html>
